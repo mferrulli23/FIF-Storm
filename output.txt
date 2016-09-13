@@ -1,0 +1,293 @@
+0. Titolo: Lone Star (1996)  MatchingDegree: 0.5
+1. Titolo: Amadeus (1984)  MatchingDegree: 0.5
+2. Titolo: Midnight in the Garden of Good and Evil (1997)  MatchingDegree: 0.5
+3. Titolo: Lost Highway (1997)  MatchingDegree: 0.5
+4. Titolo: Cop Land (1997)  MatchingDegree: 0.5
+5. Titolo: Man Who Knew Too Little, The (1997)  MatchingDegree: 0.5
+6. Titolo: Radioland Murders (1994)  MatchingDegree: 0.5
+7. Titolo: Maltese Falcon, The (1941)  MatchingDegree: 0.5
+8. Titolo: Thin Man, The (1934)  MatchingDegree: 0.5
+9. Titolo: Big Sleep, The (1946)  MatchingDegree: 0.5
+10. Titolo: Daytrippers, The (1996)  MatchingDegree: 0.5
+11. Titolo: Hour of the Pig, The (1993)  MatchingDegree: 0.5
+12. Titolo: Laura (1944)  MatchingDegree: 0.5
+13. Titolo: Manhattan Murder Mystery (1993)  MatchingDegree: 0.5
+14. Titolo: That Darn Cat! (1997)  MatchingDegree: 0.5
+15. Titolo: That Darn Cat! (1997)  MatchingDegree: 0.5
+16. Titolo: Six Degrees of Separation (1993)  MatchingDegree: 0.5
+17. Titolo: Chungking Express (1994)  MatchingDegree: 0.5
+18. Titolo: Stalker (1979)  MatchingDegree: 0.5
+19. Titolo: Flesh and Bone (1993)  MatchingDegree: 0.5
+20. Titolo: Before and After (1996)  MatchingDegree: 0.5
+21. Titolo: That Darn Cat! (1965)  MatchingDegree: 0.5
+22. Titolo: Lady of Burlesque (1943)  MatchingDegree: 0.5
+23. Titolo: Woman in Question, The (1950)  MatchingDegree: 0.5
+24. Titolo: MURDER and murder (1996)  MatchingDegree: 0.5
+25. Titolo: Four Rooms (1995)  MatchingDegree: 0.7
+26. Titolo: Copycat (1995)  MatchingDegree: 0.7
+27. Titolo: Seven (Se7en) (1995)  MatchingDegree: 0.7
+28. Titolo: Usual Suspects, The (1995)  MatchingDegree: 0.7
+29. Titolo: Taxi Driver (1976)  MatchingDegree: 0.7
+30. Titolo: Crimson Tide (1995)  MatchingDegree: 0.7
+31. Titolo: Net, The (1995)  MatchingDegree: 0.7
+32. Titolo: Disclosure (1994)  MatchingDegree: 0.7
+33. Titolo: Dolores Claiborne (1994)  MatchingDegree: 0.7
+34. Titolo: Professional, The (1994)  MatchingDegree: 0.7
+35. Titolo: Firm, The (1993)  MatchingDegree: 0.7
+36. Titolo: So I Married an Axe Murderer (1993)  MatchingDegree: 0.7
+37. Titolo: Silence of the Lambs, The (1991)  MatchingDegree: 0.7
+38. Titolo: Fargo (1996)  MatchingDegree: 0.7
+39. Titolo: Diabolique (1996)  MatchingDegree: 0.7
+40. Titolo: Bound (1996)  MatchingDegree: 0.7
+41. Titolo: 2001: A Space Odyssey (1968)  MatchingDegree: 0.7
+42. Titolo: Reservoir Dogs (1992)  MatchingDegree: 0.7
+43. Titolo: Basic Instinct (1992)  MatchingDegree: 0.7
+44. Titolo: Psycho (1960)  MatchingDegree: 0.7
+45. Titolo: Nikita (La Femme Nikita) (1990)  MatchingDegree: 0.7
+46. Titolo: Akira (1988)  MatchingDegree: 0.7
+47. Titolo: Cape Fear (1991)  MatchingDegree: 0.7
+48. Titolo: Sling Blade (1996)  MatchingDegree: 0.7
+49. Titolo: Mimic (1997)  MatchingDegree: 0.7
+50. Titolo: Gattaca (1997)  MatchingDegree: 0.7
+51. Titolo: Scream (1996)  MatchingDegree: 0.7
+52. Titolo: Absolute Power (1997)  MatchingDegree: 0.7
+53. Titolo: L.A. Confidential (1997)  MatchingDegree: 0.7
+54. Titolo: Devil's Advocate, The (1997)  MatchingDegree: 0.7
+55. Titolo: Wings of the Dove, The (1997)  MatchingDegree: 0.7
+56. Titolo: Apt Pupil (1998)  MatchingDegree: 0.7
+57. Titolo: Murder at 1600 (1997)  MatchingDegree: 0.7
+58. Titolo: Crash (1996)  MatchingDegree: 0.7
+59. Titolo: Desperate Measures (1998)  MatchingDegree: 0.7
+60. Titolo: Edge, The (1997)  MatchingDegree: 0.7
+61. Titolo: Kiss the Girls (1997)  MatchingDegree: 0.7
+62. Titolo: Game, The (1997)  MatchingDegree: 0.7
+63. Titolo: Playing God (1997)  MatchingDegree: 0.7
+64. Titolo: House of Yes, The (1997)  MatchingDegree: 0.7
+65. Titolo: Desperate Measures (1998)  MatchingDegree: 0.7
+66. Titolo: Sphere (1998)  MatchingDegree: 0.7
+67. Titolo: Client, The (1994)  MatchingDegree: 0.7
+68. Titolo: Assignment, The (1997)  MatchingDegree: 0.7
+69. Titolo: Incognito (1997)  MatchingDegree: 0.7
+70. Titolo: Mary Reilly (1996)  MatchingDegree: 0.7
+71. Titolo: Ghost (1990)  MatchingDegree: 0.7
+72. Titolo: Thinner (1996)  MatchingDegree: 0.7
+73. Titolo: Close Shave, A (1995)  MatchingDegree: 0.7
+74. Titolo: Red Rock West (1992)  MatchingDegree: 0.7
+75. Titolo: Vertigo (1958)  MatchingDegree: 0.7
+76. Titolo: North by Northwest (1959)  MatchingDegree: 0.7
+77. Titolo: Notorious (1946)  MatchingDegree: 0.7
+78. Titolo: To Catch a Thief (1955)  MatchingDegree: 0.7
+79. Titolo: Dial M for Murder (1954)  MatchingDegree: 0.7
+80. Titolo: Third Man, The (1949)  MatchingDegree: 0.7
+81. Titolo: Heavenly Creatures (1994)  MatchingDegree: 0.7
+82. Titolo: Village of the Damned (1995)  MatchingDegree: 0.7
+83. Titolo: Another Stakeout (1993)  MatchingDegree: 0.7
+84. Titolo: Body Snatchers (1993)  MatchingDegree: 0.7
+85. Titolo: Boxing Helena (1993)  MatchingDegree: 0.7
+86. Titolo: Kalifornia (1993)  MatchingDegree: 0.7
+87. Titolo: Romeo Is Bleeding (1993)  MatchingDegree: 0.7
+88. Titolo: Primal Fear (1996)  MatchingDegree: 0.7
+89. Titolo: True Crime (1995)  MatchingDegree: 0.7
+90. Titolo: Fan, The (1996)  MatchingDegree: 0.7
+91. Titolo: Rear Window (1954)  MatchingDegree: 0.7
+92. Titolo: Rebecca (1940)  MatchingDegree: 0.7
+93. Titolo: Spellbound (1945)  MatchingDegree: 0.7
+94. Titolo: 39 Steps, The (1935)  MatchingDegree: 0.7
+95. Titolo: Extreme Measures (1996)  MatchingDegree: 0.7
+96. Titolo: Once Upon a Time in America (1984)  MatchingDegree: 0.7
+97. Titolo: Touch of Evil (1958)  MatchingDegree: 0.7
+98. Titolo: Chinatown (1974)  MatchingDegree: 0.7
+99. Titolo: M (1931)  MatchingDegree: 0.7
+100. Titolo: Manchurian Candidate, The (1962)  MatchingDegree: 0.7
+101. Titolo: Arsenic and Old Lace (1944)  MatchingDegree: 0.7
+102. Titolo: Body Snatchers (1993)  MatchingDegree: 0.7
+103. Titolo: Cape Fear (1962)  MatchingDegree: 0.7
+104. Titolo: Volcano (1997)  MatchingDegree: 0.7
+105. Titolo: I Know What You Did Last Summer (1997)  MatchingDegree: 0.7
+106. Titolo: Dark City (1998)  MatchingDegree: 0.7
+107. Titolo: City Hall (1996)  MatchingDegree: 0.7
+108. Titolo: Juror, The (1996)  MatchingDegree: 0.7
+109. Titolo: Last Supper, The (1995)  MatchingDegree: 0.7
+110. Titolo: Ransom (1996)  MatchingDegree: 0.7
+111. Titolo: Red Corner (1997)  MatchingDegree: 0.7
+112. Titolo: Lawnmower Man 2: Beyond Cyberspace (1996)  MatchingDegree: 0.7
+113. Titolo: Devil in a Blue Dress (1995)  MatchingDegree: 0.7
+114. Titolo: Mute Witness (1994)  MatchingDegree: 0.7
+115. Titolo: Relative Fear (1994)  MatchingDegree: 0.7
+116. Titolo: In the Mouth of Madness (1995)  MatchingDegree: 0.7
+117. Titolo: Mulholland Falls (1996)  MatchingDegree: 0.7
+118. Titolo: Halloween: The Curse of Michael Myers (1995)  MatchingDegree: 0.7
+119. Titolo: Loch Ness (1995)  MatchingDegree: 0.7
+120. Titolo: Murder, My Sweet (1944)  MatchingDegree: 0.7
+121. Titolo: Bloody Child, The (1996)  MatchingDegree: 0.7
+122. Titolo: Believers, The (1987)  MatchingDegree: 0.7
+123. Titolo: Life Less Ordinary, A (1997)  MatchingDegree: 0.7
+124. Titolo: Scream 2 (1997)  MatchingDegree: 0.7
+125. Titolo: Big Lebowski, The (1998)  MatchingDegree: 0.7
+126. Titolo: Wild Things (1998)  MatchingDegree: 0.7
+127. Titolo: Unforgettable (1996)  MatchingDegree: 0.7
+128. Titolo: Island of Dr. Moreau, The (1996)  MatchingDegree: 0.7
+129. Titolo: Murder in the First (1995)  MatchingDegree: 0.7
+130. Titolo: Killing Zoe (1994)  MatchingDegree: 0.7
+131. Titolo: Charade (1963)  MatchingDegree: 0.7
+132. Titolo: Some Folks Call It a Sling Blade (1993)  MatchingDegree: 0.7
+133. Titolo: Eye for an Eye (1996)  MatchingDegree: 0.7
+134. Titolo: Fear (1996)  MatchingDegree: 0.7
+135. Titolo: Heaven's Prisoners (1996)  MatchingDegree: 0.7
+136. Titolo: Trigger Effect, The (1996)  MatchingDegree: 0.7
+137. Titolo: Rich Man's Wife, The (1996)  MatchingDegree: 0.7
+138. Titolo: Shadow Conspiracy (1997)  MatchingDegree: 0.7
+139. Titolo: Turbulence (1997)  MatchingDegree: 0.7
+140. Titolo: Underworld (1997)  MatchingDegree: 0.7
+141. Titolo: Head Above Water (1996)  MatchingDegree: 0.7
+142. Titolo: Gaslight (1944)  MatchingDegree: 0.7
+143. Titolo: Switchback (1997)  MatchingDegree: 0.7
+144. Titolo: Just Cause (1995)  MatchingDegree: 0.7
+145. Titolo: Malice (1993)  MatchingDegree: 0.7
+146. Titolo: Amateur (1994)  MatchingDegree: 0.7
+147. Titolo: Shallow Grave (1994)  MatchingDegree: 0.7
+148. Titolo: Love and a .45 (1994)  MatchingDegree: 0.7
+149. Titolo: Albino Alligator (1996)  MatchingDegree: 0.7
+150. Titolo: Sliver (1993)  MatchingDegree: 0.7
+151. Titolo: Death and the Maiden (1994)  MatchingDegree: 0.7
+152. Titolo: Innocents, The (1961)  MatchingDegree: 0.7
+153. Titolo: Safe (1995)  MatchingDegree: 0.7
+154. Titolo: Hard Eight (1996)  MatchingDegree: 0.7
+155. Titolo: Caught (1996)  MatchingDegree: 0.7
+156. Titolo: Purple Noon (1960)  MatchingDegree: 0.7
+157. Titolo: Jade (1995)  MatchingDegree: 0.7
+158. Titolo: Kiss of Death (1995)  MatchingDegree: 0.7
+159. Titolo: Virtuosity (1995)  MatchingDegree: 0.7
+160. Titolo: Guilty as Sin (1993)  MatchingDegree: 0.7
+161. Titolo: Assassins (1995)  MatchingDegree: 0.7
+162. Titolo: Poison Ivy II (1995)  MatchingDegree: 0.7
+163. Titolo: Blink (1994)  MatchingDegree: 0.7
+164. Titolo: Tie That Binds, The (1995)  MatchingDegree: 0.7
+165. Titolo: Color of Night (1994)  MatchingDegree: 0.7
+166. Titolo: Robocop 3 (1993)  MatchingDegree: 0.7
+167. Titolo: Killer (Bulletproof Heart) (1994)  MatchingDegree: 0.7
+168. Titolo: Palmetto (1998)  MatchingDegree: 0.7
+169. Titolo: Loaded (1994)  MatchingDegree: 0.7
+170. Titolo: I Can't Sleep (J'ai pas sommeil) (1994)  MatchingDegree: 0.7
+171. Titolo: Stranger in the House (1997)  MatchingDegree: 0.7
+172. Titolo: Suture (1993)  MatchingDegree: 0.7
+173. Titolo: Legal Deceit (1997)  MatchingDegree: 0.7
+174. Titolo: Foreign Correspondent (1940)  MatchingDegree: 0.7
+175. Titolo: Hideaway (1995)  MatchingDegree: 0.7
+176. Titolo: Nightwatch (1997)  MatchingDegree: 0.7
+177. Titolo: Babysitter, The (1995)  MatchingDegree: 0.7
+178. Titolo: Trial by Jury (1994)  MatchingDegree: 0.7
+179. Titolo: Witness (1985)  MatchingDegree: 0.7
+180. Titolo: Dream Man (1995)  MatchingDegree: 0.7
+181. Titolo: Underneath, The (1995)  MatchingDegree: 0.7
+182. Titolo: Baton Rouge (1988)  MatchingDegree: 0.7
+183. Titolo: City of Industry (1997)  MatchingDegree: 0.7
+184. Titolo: Office Killer (1997)  MatchingDegree: 0.7
+185. Titolo: He Walked by Night (1948)  MatchingDegree: 0.7
+186. Titolo: Butterfly Kiss (1995)  MatchingDegree: 0.7
+187. Titolo: Hush (1998)  MatchingDegree: 0.7
+188. Titolo: Nightwatch (1997)  MatchingDegree: 0.7
+189. Titolo: Spanish Prisoner, The (1997)  MatchingDegree: 0.7
+190. Titolo: Tainted (1998)  MatchingDegree: 0.7
+191. Titolo: B. Monkey (1998)  MatchingDegree: 0.7
+192. Titolo: GoldenEye (1995)  MatchingDegree: 0.8
+193. Titolo: Get Shorty (1995)  MatchingDegree: 0.8
+194. Titolo: From Dusk Till Dawn (1996)  MatchingDegree: 0.8
+195. Titolo: Muppet Treasure Island (1996)  MatchingDegree: 0.8
+196. Titolo: Braveheart (1995)  MatchingDegree: 0.8
+197. Titolo: Rumble in the Bronx (1995)  MatchingDegree: 0.8
+198. Titolo: Bad Boys (1995)  MatchingDegree: 0.8
+199. Titolo: Apollo 13 (1995)  MatchingDegree: 0.8
+200. Titolo: Batman Forever (1995)  MatchingDegree: 0.8
+201. Titolo: Desperado (1995)  MatchingDegree: 0.8
+202. Titolo: Strange Days (1995)  MatchingDegree: 0.8
+203. Titolo: Star Wars (1977)  MatchingDegree: 0.8
+204. Titolo: Natural Born Killers (1994)  MatchingDegree: 0.8
+205. Titolo: Outbreak (1995)  MatchingDegree: 0.8
+206. Titolo: Stargate (1994)  MatchingDegree: 0.8
+207. Titolo: Crow, The (1994)  MatchingDegree: 0.8
+208. Titolo: Maverick (1994)  MatchingDegree: 0.8
+209. Titolo: Faster Pussycat! Kill! Kill! (1965)  MatchingDegree: 0.8
+210. Titolo: Fugitive, The (1993)  MatchingDegree: 0.8
+211. Titolo: Hot Shots! Part Deux (1993)  MatchingDegree: 0.8
+212. Titolo: Jurassic Park (1993)  MatchingDegree: 0.8
+213. Titolo: True Romance (1993)  MatchingDegree: 0.8
+214. Titolo: Terminator 2: Judgment Day (1991)  MatchingDegree: 0.8
+215. Titolo: Heavy Metal (1981)  MatchingDegree: 0.8
+216. Titolo: Operation Dumbo Drop (1995)  MatchingDegree: 0.8
+217. Titolo: Rock, The (1996)  MatchingDegree: 0.8
+218. Titolo: Twister (1996)  MatchingDegree: 0.8
+219. Titolo: Independence Day (ID4) (1996)  MatchingDegree: 0.8
+220. Titolo: Godfather, The (1972)  MatchingDegree: 0.8
+221. Titolo: Supercop (1992)  MatchingDegree: 0.8
+222. Titolo: Die Hard (1988)  MatchingDegree: 0.8
+223. Titolo: Lawnmower Man, The (1992)  MatchingDegree: 0.8
+224. Titolo: Long Kiss Goodnight, The (1996)  MatchingDegree: 0.8
+225. Titolo: Ghost and the Darkness, The (1996)  MatchingDegree: 0.8
+226. Titolo: Top Gun (1986)  MatchingDegree: 0.8
+227. Titolo: Abyss, The (1989)  MatchingDegree: 0.8
+228. Titolo: Empire Strikes Back, The (1980)  MatchingDegree: 0.8
+229. Titolo: Princess Bride, The (1987)  MatchingDegree: 0.8
+230. Titolo: Raiders of the Lost Ark (1981)  MatchingDegree: 0.8
+231. Titolo: Aliens (1986)  MatchingDegree: 0.8
+232. Titolo: Good, The Bad and The Ugly, The (1966)  MatchingDegree: 0.8
+233. Titolo: Return of the Jedi (1983)  MatchingDegree: 0.8
+234. Titolo: Alien (1979)  MatchingDegree: 0.8
+235. Titolo: Army of Darkness (1993)  MatchingDegree: 0.8
+236. Titolo: Blues Brothers, The (1980)  MatchingDegree: 0.8
+237. Titolo: Godfather: Part II, The (1974)  MatchingDegree: 0.8
+238. Titolo: Full Metal Jacket (1987)  MatchingDegree: 0.8
+239. Titolo: Terminator, The (1984)  MatchingDegree: 0.8
+240. Titolo: Evil Dead II (1987)  MatchingDegree: 0.8
+241. Titolo: Cyrano de Bergerac (1990)  MatchingDegree: 0.8
+242. Titolo: Indiana Jones and the Last Crusade (1989)  MatchingDegree: 0.8
+243. Titolo: Star Trek: First Contact (1996)  MatchingDegree: 0.8
+244. Titolo: Die Hard 2 (1990)  MatchingDegree: 0.8
+245. Titolo: Star Trek VI: The Undiscovered Country (1991)  MatchingDegree: 0.8
+246. Titolo: Star Trek: The Wrath of Khan (1982)  MatchingDegree: 0.8
+247. Titolo: Star Trek III: The Search for Spock (1984)  MatchingDegree: 0.8
+248. Titolo: Star Trek IV: The Voyage Home (1986)  MatchingDegree: 0.8
+249. Titolo: Batman Returns (1992)  MatchingDegree: 0.8
+250. Titolo: Young Guns (1988)  MatchingDegree: 0.8
+251. Titolo: Under Siege (1992)  MatchingDegree: 0.8
+252. Titolo: Jaws (1975)  MatchingDegree: 0.8
+253. Titolo: Mars Attacks! (1996)  MatchingDegree: 0.8
+254. Titolo: Last of the Mohicans, The (1992)  MatchingDegree: 0.8
+255. Titolo: Smilla's Sense of Snow (1997)  MatchingDegree: 0.8
+256. Titolo: Devil's Own, The (1997)  MatchingDegree: 0.8
+257. Titolo: Turbo: A Power Rangers Movie (1997)  MatchingDegree: 0.8
+258. Titolo: Fifth Element, The (1997)  MatchingDegree: 0.8
+259. Titolo: Lost World: Jurassic Park, The (1997)  MatchingDegree: 0.8
+260. Titolo: Batman & Robin (1997)  MatchingDegree: 0.8
+261. Titolo: Men in Black (1997)  MatchingDegree: 0.8
+262. Titolo: Event Horizon (1997)  MatchingDegree: 0.8
+263. Titolo: Steel (1997)  MatchingDegree: 0.8
+264. Titolo: Hunt for Red October, The (1990)  MatchingDegree: 0.8
+265. Titolo: Kull the Conqueror (1997)  MatchingDegree: 0.8
+266. Titolo: Starship Troopers (1997)  MatchingDegree: 0.8
+267. Titolo: Heat (1995)  MatchingDegree: 0.8
+268. Titolo: River Wild, The (1994)  MatchingDegree: 0.8
+269. Titolo: Breakdown (1997)  MatchingDegree: 0.8
+270. Titolo: Face/Off (1997)  MatchingDegree: 0.8
+271. Titolo: Air Force One (1997)  MatchingDegree: 0.8
+272. Titolo: Titanic (1997)  MatchingDegree: 0.8
+273. Titolo: 3 Ninjas: High Noon At Mega Mountain (1998)  MatchingDegree: 0.8
+274. Titolo: Dante's Peak (1997)  MatchingDegree: 0.8
+275. Titolo: G.I. Jane (1997)  MatchingDegree: 0.8
+276. Titolo: Conspiracy Theory (1997)  MatchingDegree: 0.8
+277. Titolo: U Turn (1997)  MatchingDegree: 0.8
+278. Titolo: Mad City (1997)  MatchingDegree: 0.8
+279. Titolo: Alien: Resurrection (1997)  MatchingDegree: 0.8
+280. Titolo: Hard Rain (1998)  MatchingDegree: 0.8
+281. Titolo: Fallen (1998)  MatchingDegree: 0.8
+282. Titolo: Deep Rising (1998)  MatchingDegree: 0.8
+283. Titolo: Spawn (1997)  MatchingDegree: 0.8
+284. Titolo: Blues Brothers 2000 (1998)  MatchingDegree: 0.8
+285. Titolo: Sudden Death (1995)  MatchingDegree: 0.8
+286. Titolo: Judge Dredd (1995)  MatchingDegree: 0.8
+287. Titolo: Mighty Morphin Power Rangers: The Movie (1995)  MatchingDegree: 0.8
+288. Titolo: Star Trek: Generations (1994)  MatchingDegree: 0.8
+289. Titolo: True Lies (1994)  MatchingDegree: 0.8
+290. Titolo: Beverly Hills Cop III (1994)  MatchingDegree: 0.8
+291. Titolo: Last Action Hero (1993)  MatchingDegree: 0.8
+292. Titolo: Striking Distance 
