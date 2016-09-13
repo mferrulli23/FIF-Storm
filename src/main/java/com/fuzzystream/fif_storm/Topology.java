@@ -1,13 +1,9 @@
 package com.fuzzystream.fif_storm;
 
-import java.util.HashMap;
-import java.util.Scanner;
-
 import com.fuzzystream.Profile;
 
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
-import backtype.storm.generated.KillOptions;
 import backtype.storm.topology.TopologyBuilder;
 
 public class Topology {
@@ -49,6 +45,7 @@ public class Topology {
         
         Thread.sleep(10000);
         //cluster.shutdown();
+        
         Profile profile = null;
         profile = Profile.getInstance();
         profile.showInterestingMovies();
