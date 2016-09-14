@@ -8,7 +8,13 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+import com.fuzzystream.fif_core.Attribute;
+import com.fuzzystream.fif_core.DescriptionBasedFilter;
+import com.fuzzystream.fif_core.Filter;
 import com.fuzzystream.fif_core.FuzzySet;
+import com.fuzzystream.fif_core.Metadata;
+import com.fuzzystream.fif_core.PossibilisticInterpretation;
+import com.fuzzystream.fif_core.SequenceFilter;
 
 public class Profile {
 	
@@ -20,35 +26,50 @@ public class Profile {
 
 	private static int id;
 	private static int idFactory = 4;
-	private static FuzzySet genrePreferences;
+	private static FuzzySet profileGenreFs; 
+	private FuzzySet profileYearFs; 
 	private LinkedList<Movie> interestingMovies = new LinkedList<Movie>();
-	//private FuzzySet yearPreferences;
+	private Filter generalFilter;
 	
 	private Profile(int i) throws Exception {
 		switch (i){
 		case 1: id = 1;
-				genrePreferences = new FuzzySet();
-				genrePreferences.setValue("Action", 0.8);
-				genrePreferences.setValue("Thriller", 0.7);
-				genrePreferences.setValue("Mystery", 0.5);
-				//interestingMovies = new LinkedList<Movie>();
-				//yearPreferences = new FuzzySet();
-				//yearPreferences.setValue("1986", 0.4);
-				//yearPreferences.setValue("1997", 0.8);
+				profileGenreFs = new FuzzySet();
+				profileYearFs = new FuzzySet();
+				profileGenreFs.setValue("Action", 0.8);
+				profileGenreFs.setValue("Thriller", 0.7);
+				profileGenreFs.setValue("Mystery", 0.5);
+				profileYearFs = new FuzzySet();
+				profileYearFs.setValue("1986", 0.4);
+				profileYearFs.setValue("1997", 0.8);
+				
+				//costruzione metadato e filtro semplice
+				Attribute genre = new Attribute("Genre");
+				Metadata profileGenreMd = new Metadata(genre, profileGenreFs, PossibilisticInterpretation.getinstance());
+				DescriptionBasedFilter filterGenre = new DescriptionBasedFilter(profileGenreMd);
+				
+				//costruzione metadato e filtro semplice
+				Attribute year = new Attribute("Year");
+				Metadata profileYearMd = new Metadata(year, profileYearFs, PossibilisticInterpretation.getinstance());
+				DescriptionBasedFilter filterYear = new DescriptionBasedFilter(profileYearMd);
+				
+				//costruzione filtro composto in sequenza
+				Filter filter = new SequenceFilter(filterGenre, filterYear);
+				this.generalFilter = filter;
 				break;
 		
 		case 2: id = 2;
-				genrePreferences = new FuzzySet();
-				genrePreferences.setValue("Comedy", 0.9);
-				genrePreferences.setValue("Children", 0.8);
-				genrePreferences.setValue("Adventure", 0.6);
+				profileGenreFs = new FuzzySet();
+				profileGenreFs.setValue("Comedy", 0.9);
+				profileGenreFs.setValue("Children", 0.8);
+				profileGenreFs.setValue("Adventure", 0.6);
 				break;
 		
 		case 3: id = 3;
-				genrePreferences = new FuzzySet();
-				genrePreferences.setValue("Crime", 1);
-				genrePreferences.setValue("War", 0.7);
-				genrePreferences.setValue("Western", 0.3);
+				profileGenreFs = new FuzzySet();
+				profileGenreFs.setValue("Crime", 1);
+				profileGenreFs.setValue("War", 0.7);
+				profileGenreFs.setValue("Western", 0.3);
 				break;
 		}
 		
@@ -58,13 +79,17 @@ public class Profile {
 		
 	}
 	
+	public Filter getFilter(){
+		return this.generalFilter;
+	}
+	
 	
 	public static Profile getInstance() throws Exception{
 			return profileSelected;
 	}
 
 	public FuzzySet getGenrePreferences() {
-		return genrePreferences;
+		return profileGenreFs;
 	}
 	
 	public LinkedList<Movie> getInterestingMovies(){
@@ -103,7 +128,7 @@ public class Profile {
     	System.out.println("Enter 1 or 2...");
     	Scanner in = new Scanner(System.in);
     	int option = in.nextInt();
-    	while (option != 1 && option != 0){
+    	while (option != 1 && option != 2){
     		System.out.println("Please insert a correct choice (1 or 2): ");
     		option = in.nextInt();
     	}
@@ -142,7 +167,7 @@ public class Profile {
 		Thread.sleep(1000);
 		Scanner in = new Scanner(System.in);
 		double value = 0.0;
-		genrePreferences = new FuzzySet();
+		profileGenreFs = new FuzzySet();
 		String[] genres = {"Action", "Adventure", "Animation", "Children", "Comedy", "Crime", "Documentary", "Drama", "Fantasy", "FilmNoir", "Horror", "Musical", "Mystery", 
 				"Romance", "SciFi", "Thriller", "War", "Western"};
 		for(String genre : genres){
@@ -153,7 +178,7 @@ public class Profile {
 				value = in.nextDouble();
 			}
 			if(value != 0)
-				genrePreferences.setValue(genre, value);
+				profileGenreFs.setValue(genre, value);
 		}
 		
 		profileSelected = new Profile();

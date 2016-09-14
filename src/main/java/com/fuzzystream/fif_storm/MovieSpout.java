@@ -6,6 +6,8 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.fuzzystream.dataAccess.DataAccess;
+
 //import com.fuzzystream.Profile;
 
 import backtype.storm.spout.SpoutOutputCollector;
@@ -25,7 +27,7 @@ public class MovieSpout implements IRichSpout {
 
 		DAO = new DataAccess();
 		try {
-			DAO.connetti();
+			DAO.connetti(1);
 			System.out.println("CONNESSIONE CON IL DATABASE MOVIELENS STABILITA");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block

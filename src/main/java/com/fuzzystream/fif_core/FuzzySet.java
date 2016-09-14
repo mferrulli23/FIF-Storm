@@ -65,10 +65,10 @@ public class FuzzySet {
 		assert (membershipValue >= 0 && membershipValue <= 1) : "Fuzzy Set: invalid number to set";
 		
 		//mario
-		if(data.containsKey(element))
-			throw new Exception();
+		//if(data.containsKey(element))
+		//	throw new Exception();
 		
-		/*
+		//cancella da qui
 		if (membershipValue != 0)
 			data.put(element.toLowerCase(), membershipValue);
 		else {
@@ -77,7 +77,7 @@ public class FuzzySet {
 			}	
 		}
 		
-		*/
+		//a qui
 		
 		if (membershipValue != 0)
 			data.put(element.toLowerCase(), membershipValue);

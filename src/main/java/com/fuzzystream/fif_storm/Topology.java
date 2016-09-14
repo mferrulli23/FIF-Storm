@@ -8,9 +8,9 @@ import backtype.storm.topology.TopologyBuilder;
 
 public class Topology {
 
-	public final static String MOVIE_SPOUT_ID = "movie-SPOUT";
-    public final static String CLEANING_GENRE_BOLT_ID = "cleaning-genre-bolt";
-    public final static String FILTERING_GENRE_BOLT_ID = "filtering-genre-BOLT";
+	public final static String MOVIES_SPOUT_ID = "movies-SPOUT";
+    public final static String PREPARING_BOLT_ID = "preparing-bolt";
+    public final static String FILTERING_BOLT_ID = "filtering-bolt";
     public final static String END_FILTERING_BOLT_ID = "end-filtering-bolt";
     public final static String FUZZY_FILTERING_TOPOLOGY_ID = "fuzzy-filtering-TOPOLOGY";
     public final static String WORDS_FILE_KEY = "wordsFile";
@@ -27,11 +27,11 @@ public class Topology {
     	
         //Prima parte - Definizione della TOPOLOGY        
         TopologyBuilder builder = new TopologyBuilder();
-        builder.setSpout(MOVIE_SPOUT_ID, 
-        		new MovieSpout());
-        builder.setBolt(CLEANING_GENRE_BOLT_ID, new CleaningGenreBolt()).
-            shuffleGrouping(MOVIE_SPOUT_ID);
-		builder.setBolt(FILTERING_GENRE_BOLT_ID, new FilteringGenreBolt()).shuffleGrouping(CLEANING_GENRE_BOLT_ID);
+        builder.setSpout(MOVIES_SPOUT_ID, 
+        		new MoviesSpout());
+        builder.setBolt(PREPARING_BOLT_ID, new PreparingBolt()).
+            shuffleGrouping(MOVIES_SPOUT_ID);
+		builder.setBolt(FILTERING_BOLT_ID, new FilteringBolt()).shuffleGrouping(PREPARING_BOLT_ID);
 		
 
         //Seconda parte  - Configurazione Storm Cluster
@@ -43,7 +43,7 @@ public class Topology {
         cluster.submitTopology(FUZZY_FILTERING_TOPOLOGY_ID, conf, builder.createTopology());
         
         
-        Thread.sleep(10000);
+        Thread.sleep(100000);
         //cluster.shutdown();
         
         Profile profile = null;

@@ -1,4 +1,4 @@
-package com.fuzzystream.fif_storm;
+package com.fuzzystream.dataAccess;
 
 
 import com.mysql.jdbc.Driver;
@@ -12,21 +12,23 @@ import org.apache.ibatis.jdbc.ScriptRunner;
 
 public class DataAccess {
 	
-
+	private static final int FIRSTROW_DB3 = 8;
+	private static final int FIRSTROW_DB4 = 14;
+	
 	/**
 	 * campo per la connessione al database
 	 */
-	protected Connection connessione;
+	public Connection connessione;
     
 	/**
      * campo statement 
      */
-    protected Statement stat;
+    public Statement stat;
     
     /**
      * campo per i risultati della query
      */
-    protected ResultSet res;
+    public ResultSet res;
     
     /**
      * campo di preparazione statement
@@ -40,39 +42,54 @@ public class DataAccess {
      * @throws SQLException
      * @throws IOException
      */
-    protected boolean connetti() throws ClassNotFoundException, SQLException, IOException
+    public boolean connetti(int idDatabase) throws ClassNotFoundException, SQLException, IOException
     {
     	connessione = null;
         boolean connection = false;
         FileReader input = new FileReader("DB.conf");
         BufferedReader br = new BufferedReader(input);
         new Driver();
-        String src = br.readLine().toString();
-        String db = br.readLine().toString();
-        String user = br.readLine().toString();
-        String password = br.readLine().toString();
-        try
-        {
+        String src;
+        String db;
+        String user;
+        String password;
+        
+        if(idDatabase == 2)
+        	br.readLine();
+        else if(idDatabase == 3){
+        	for(int i = 1; i < FIRSTROW_DB3; i++)
+        		br.readLine();		
+        }else{
+        	for(int i = 1; i < FIRSTROW_DB4; i++)
+        		br.readLine();
+        }
+        
+	    src = br.readLine().toString();
+	    db = br.readLine().toString();
+	    user = br.readLine().toString();
+	    password = br.readLine().toString();
+       
+        try {
             String jdbc = (new StringBuilder("jdbc:mysql://")).append(src).append("/").append(db).toString();
-            //connessione = DriverManager.getConnection(jdbc, user, password);
-            connessione = DriverManager.getConnection("jdbc:mysql://localhost/Movielens","root", "storm");
+            connessione = DriverManager.getConnection(jdbc, user, password);
+            //connessione = DriverManager.getConnection("jdbc:mysql://localhost/Movielens","root", "storm");
            
         }
         catch(SQLException e)
         {        	
         	if (e.getErrorCode()==1049) {
-            JOptionPane.showMessageDialog(null, "Errore nella connessione al database.");
-            String jdbc = (new StringBuilder("jdbc:mysql://")).append(src).toString();
-            connessione = DriverManager.getConnection("jdbc:mysql://localhost/Movielens","root", "storm");
-         	String sqlScriptPath = br.readLine().toString();
-         	ScriptRunner sr = new ScriptRunner(connessione);
-         	BufferedReader reader = new BufferedReader(
-         	new FileReader(sqlScriptPath));
-         	sr.runScript(reader);
-         	sqlScriptPath=br.readLine().toString();
-         	reader = new BufferedReader(new FileReader(sqlScriptPath));
-            sr.runScript(reader);
-            JOptionPane.showMessageDialog(null, "Installazione completata!");
+            JOptionPane.showMessageDialog(null, "Errore generico nella connessione al database.");
+            //String jdbc = (new StringBuilder("jdbc:mysql://")).append(src).toString();
+           //connessione = DriverManager.getConnection("jdbc:mysql://localhost/Movielens","root", "storm");
+         	//String sqlScriptPath = br.readLine().toString();
+         	//ScriptRunner sr = new ScriptRunner(connessione);
+         	//BufferedReader reader = new BufferedReader(
+         	//new FileReader(sqlScriptPath));
+         	//sr.runScript(reader);
+         	//sqlScriptPath=br.readLine().toString();
+         	//reader = new BufferedReader(new FileReader(sqlScriptPath));
+            //sr.runScript(reader);
+            //JOptionPane.showMessageDialog(null, "Installazione completata!");
         } else {
         	if (e.getErrorCode()==1045) {
         		JOptionPane.showMessageDialog(null, "Username o password del DB errati! \n Controllare il file di configurazione e riprovare.");   		
@@ -98,6 +115,10 @@ public class DataAccess {
         connessione.close();
         chiuso = true;
         return chiuso;
+    }
+    
+    private void switchLine(int idDatabase){
+    	
     }
     
     
