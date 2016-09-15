@@ -1,4 +1,4 @@
-package com.fuzzystream.fif_storm;
+package com.fuzzystream.backupTopology;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -7,7 +7,6 @@ import java.util.LinkedList;
 import java.util.Map;
 
 import com.fuzzystream.Movie;
-import com.fuzzystream.Profile;
 import com.fuzzystream.exceptions.MetadataWithSameAttributeException;
 import com.fuzzystream.fif_core.Attribute;
 import com.fuzzystream.fif_core.Descriptor;

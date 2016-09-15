@@ -5,8 +5,9 @@ import java.net.URISyntaxException;
 import java.util.LinkedList;
 import java.util.Map;
 
+import com.fuzzystream.AbstractProfile;
 import com.fuzzystream.Movie;
-import com.fuzzystream.Profile;
+import com.fuzzystream.backupTopology.Profile;
 import com.fuzzystream.exceptions.MetadataWithSameAttributeException;
 import com.fuzzystream.fif_core.Attribute;
 import com.fuzzystream.fif_core.Descriptor;
@@ -34,13 +35,13 @@ public class FilteringBolt implements IRichBolt {
 	private FuzzySet resourceYearFs;
 	
 	//private FuzzySet profileFs;
-	Profile profile;
+	AbstractProfile profile;
 
 	public void prepare(Map stormConf, TopologyContext context, OutputCollector collector) {
 		this.collector = collector;
 		profile = null;
 		try {
-			profile = Profile.getInstance();	
+			profile = AbstractProfile.getInstance();	
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -101,7 +102,7 @@ public class FilteringBolt implements IRichBolt {
 		ResourceRegister rr = ResourceRegister.getinstance();
 		rr.associateDescriptor(resource, descriptor);
 		
-		//FILTERING
+		/*//FILTERING
 		Profile profile = null;
 		try {
 			profile = Profile.getInstance();
@@ -109,8 +110,10 @@ public class FilteringBolt implements IRichBolt {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 		
-		Filter filter = profile.getFilter();
+		AbstractProfile currentProfile = AbstractProfile.getInstance();
+		Filter filter = currentProfile.getFilter();
 		
 		try {
 			double result = filter.doFilter(resource);

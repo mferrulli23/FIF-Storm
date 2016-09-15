@@ -1,6 +1,8 @@
 package com.fuzzystream.fif_storm;
 
-import com.fuzzystream.Profile;
+import com.fuzzystream.AbstractProfile;
+import com.fuzzystream.ProfileFactory;
+import com.fuzzystream.backupTopology.Profile;
 
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
@@ -22,7 +24,9 @@ public class Topology {
     
     public static void main(String[] args) throws Exception {
     	
-    	Profile.profileSelection();
+    	ProfileFactory factory = new ProfileFactory();
+    	int idProfile = factory.profileSelection();
+        AbstractProfile profile = (AbstractProfile) factory.getInstance(idProfile);
     	
     	
         //Prima parte - Definizione della TOPOLOGY        
@@ -43,13 +47,15 @@ public class Topology {
         cluster.submitTopology(FUZZY_FILTERING_TOPOLOGY_ID, conf, builder.createTopology());
         
         
-        Thread.sleep(100000);
+        Thread.sleep(50000);
         //cluster.shutdown();
         
-        Profile profile = null;
-        profile = Profile.getInstance();
+        //Profile profile = null;
+        //profile = Profile.getInstance();
         profile.showInterestingMovies();
         profile.printTxt();
+        
+        
         
         }
     

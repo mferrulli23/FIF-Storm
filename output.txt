@@ -1,134 +1,175 @@
-0. Titolo: Top Gun (1986)  MatchingDegree: 0.4
-1. Titolo: Aliens (1986)  MatchingDegree: 0.4
-2. Titolo: Highlander (1986)  MatchingDegree: 0.4
-3. Titolo: Great Mouse Detective, The (1986)  MatchingDegree: 0.4
-4. Titolo: Blue Velvet (1986)  MatchingDegree: 0.4
-5. Titolo: Karate Kid, Part II, The (1986)  MatchingDegree: 0.4
-6. Titolo: Running Scared (1986)  MatchingDegree: 0.4
-7. Titolo: Name of the Rose, The (Name der Rose, Der) (1986)  MatchingDegree: 0.4
-8. Titolo: Jumpin' Jack Flash (1986)  MatchingDegree: 0.4
-9. Titolo: 52 Pick-Up (1986)  MatchingDegree: 0.4
-10. Titolo: Heartbreak Ridge (1986)  MatchingDegree: 0.4
-11. Titolo: Chopping Mall (a.k.a. Killbots) (1986)  MatchingDegree: 0.4
-12. Titolo: Golden Child, The (1986)  MatchingDegree: 0.4
-13. Titolo: No Mercy (1986)  MatchingDegree: 0.4
-14. Titolo: Iron Eagle (1986)  MatchingDegree: 0.4
-15. Titolo: Let's Get Harry (1986)  MatchingDegree: 0.4
-16. Titolo: Band of the Hand (1986)  MatchingDegree: 0.4
-17. Titolo: Born American (1986)  MatchingDegree: 0.4
-18. Titolo: Big Trouble in Little China (1986)  MatchingDegree: 0.4
-19. Titolo: F/X (1986)  MatchingDegree: 0.4
-20. Titolo: Reform School Girls (1986)  MatchingDegree: 0.4
-21. Titolo: Manhunter (1986)  MatchingDegree: 0.4
-22. Titolo: Youngblood (1986)  MatchingDegree: 0.4
-23. Titolo: Salvador (1986)  MatchingDegree: 0.4
-24. Titolo: Nomads (1986)  MatchingDegree: 0.4
-25. Titolo: Laputa: Castle in the Sky (TenkÃ» no shiro Rapyuta) (1986)  MatchingDegree: 0.4
-26. Titolo: Thrashin' (1986)  MatchingDegree: 0.4
-27. Titolo: Black Moon Rising (1986)  MatchingDegree: 0.4
-28. Titolo: Cobra (1986)  MatchingDegree: 0.4
-29. Titolo: Hitcher, The (1986)  MatchingDegree: 0.4
-30. Titolo: Witchboard (1986)  MatchingDegree: 0.4
-31. Titolo: Dead End Drive-In (1986)  MatchingDegree: 0.4
-32. Titolo: Park Is Mine, The (1986)  MatchingDegree: 0.4
-33. Titolo: Solarbabies (1986)  MatchingDegree: 0.4
-34. Titolo: No Retreat, No Surrender (1986)  MatchingDegree: 0.4
-35. Titolo: Wraith, The (1986)  MatchingDegree: 0.4
-36. Titolo: 8 Million Ways to Die (1986)  MatchingDegree: 0.4
-37. Titolo: Sword of Gideon (1986)  MatchingDegree: 0.4
-38. Titolo: Brotherhood of Justice, The (1986)  MatchingDegree: 0.4
-39. Titolo: Peking Opera Blues (Do ma daan) (1986)  MatchingDegree: 0.4
-40. Titolo: Fist of the North Star (1986)  MatchingDegree: 0.4
-41. Titolo: Blue City (1986)  MatchingDegree: 0.4
-42. Titolo: Harmagedon (1986)  MatchingDegree: 0.4
-43. Titolo: Dragon Ball: The Curse Of The Blood Rubies (Doragon bÃ´ru: Shenron no densetsu) (1986)  MatchingDegree: 0.4
-44. Titolo: Born to Defense (Zhong hua ying xiong) (1986)  MatchingDegree: 0.4
-45. Titolo: Never Too Young to Die (1986)  MatchingDegree: 0.4
-46. Titolo: America 3000 (1986)  MatchingDegree: 0.4
-47. Titolo: Bullies (1986)  MatchingDegree: 0.4
-48. Titolo: Murder at 1600 (1997)  MatchingDegree: 0.5
-49. Titolo: Absolute Power (1997)  MatchingDegree: 0.5
-50. Titolo: Lost Highway (1997)  MatchingDegree: 0.5
-51. Titolo: Conspiracy Theory (1997)  MatchingDegree: 0.5
-52. Titolo: L.A. Confidential (1997)  MatchingDegree: 0.5
-53. Titolo: Kiss the Girls (1997)  MatchingDegree: 0.5
-54. Titolo: Game, The (1997)  MatchingDegree: 0.5
-55. Titolo: I Know What You Did Last Summer (1997)  MatchingDegree: 0.5
-56. Titolo: Devil's Advocate, The (1997)  MatchingDegree: 0.5
-57. Titolo: Switchback (1997)  MatchingDegree: 0.5
-58. Titolo: Scream 2 (1997)  MatchingDegree: 0.5
-59. Titolo: Suicide Kings (1997)  MatchingDegree: 0.5
-60. Titolo: Spanish Prisoner, The (1997)  MatchingDegree: 0.5
-61. Titolo: Insomnia (1997)  MatchingDegree: 0.5
-62. Titolo: Cube (1997)  MatchingDegree: 0.5
-63. Titolo: Perfect Blue (1997)  MatchingDegree: 0.5
-64. Titolo: Ice House, The (1997)  MatchingDegree: 0.5
-65. Titolo: Turbulence (1997)  MatchingDegree: 0.8
-66. Titolo: Beverly Hills Ninja (1997)  MatchingDegree: 0.8
-67. Titolo: Metro (1997)  MatchingDegree: 0.8
-68. Titolo: Dante's Peak (1997)  MatchingDegree: 0.8
-69. Titolo: Rosewood (1997)  MatchingDegree: 0.8
-70. Titolo: Best Men (1997)  MatchingDegree: 0.8
-71. Titolo: Saint, The (1997)  MatchingDegree: 0.8
-72. Titolo: Devil's Own, The (1997)  MatchingDegree: 0.8
-73. Titolo: Turbo: A Power Rangers Movie (1997)  MatchingDegree: 0.8
-74. Titolo: Anaconda (1997)  MatchingDegree: 0.8
-75. Titolo: Volcano (1997)  MatchingDegree: 0.8
-76. Titolo: Austin Powers: International Man of Mystery (1997)  MatchingDegree: 0.8
-77. Titolo: Breakdown (1997)  MatchingDegree: 0.8
-78. Titolo: Truth or Consequences, N.M. (1997)  MatchingDegree: 0.8
-79. Titolo: Warriors of Virtue (1997)  MatchingDegree: 0.8
-80. Titolo: Fifth Element, The (1997)  MatchingDegree: 0.8
-81. Titolo: Lost World: Jurassic Park, The (1997)  MatchingDegree: 0.8
-82. Titolo: Con Air (1997)  MatchingDegree: 0.8
-83. Titolo: Speed 2: Cruise Control (1997)  MatchingDegree: 0.8
-84. Titolo: Batman & Robin (1997)  MatchingDegree: 0.8
-85. Titolo: Face/Off (1997)  MatchingDegree: 0.8
-86. Titolo: Men in Black (a.k.a. MIB) (1997)  MatchingDegree: 0.8
-87. Titolo: G.I. Jane (1997)  MatchingDegree: 0.8
-88. Titolo: Cop Land (1997)  MatchingDegree: 0.8
-89. Titolo: Spawn (1997)  MatchingDegree: 0.8
-90. Titolo: Money Talks (1997)  MatchingDegree: 0.8
-91. Titolo: Kull the Conqueror (1997)  MatchingDegree: 0.8
-92. Titolo: Air Force One (1997)  MatchingDegree: 0.8
-93. Titolo: Peacemaker, The (1997)  MatchingDegree: 0.8
-94. Titolo: Fire Down Below (1997)  MatchingDegree: 0.8
-95. Titolo: Assignment, The (1997)  MatchingDegree: 0.8
-96. Titolo: Stag (1997)  MatchingDegree: 0.8
-97. Titolo: Mad City (1997)  MatchingDegree: 0.8
-98. Titolo: Starship Troopers (1997)  MatchingDegree: 0.8
-99. Titolo: Mortal Kombat: Annihilation (1997)  MatchingDegree: 0.8
-100. Titolo: Jackal, The (1997)  MatchingDegree: 0.8
-101. Titolo: Alien: Resurrection (1997)  MatchingDegree: 0.8
-102. Titolo: Tomorrow Never Dies (1997)  MatchingDegree: 0.8
-103. Titolo: Postman, The (1997)  MatchingDegree: 0.8
-104. Titolo: Men with Guns (1997)  MatchingDegree: 0.8
-105. Titolo: Heaven's Burning (1997)  MatchingDegree: 0.8
-106. Titolo: Mr. Nice Guy (Yat goh ho yan) (1997)  MatchingDegree: 0.8
-107. Titolo: Princess Mononoke (Mononoke-hime) (1997)  MatchingDegree: 0.8
-108. Titolo: Nothing to Lose (1997)  MatchingDegree: 0.8
-109. Titolo: Dobermann (1997)  MatchingDegree: 0.8
-110. Titolo: Masterminds (1997)  MatchingDegree: 0.8
-111. Titolo: Executive Target (1997)  MatchingDegree: 0.8
-112. Titolo: Mean Guns (1997)  MatchingDegree: 0.8
-113. Titolo: Nirvana (1997)  MatchingDegree: 0.8
-114. Titolo: Dance with the Devil (Perdita Durango) (1997)  MatchingDegree: 0.8
-115. Titolo: Postman Blues (1997)  MatchingDegree: 0.8
-116. Titolo: Neon Genesis Evangelion: The End of Evangelion (Shin seiki Evangelion GekijÃ´-ban: Air/Magokoro wo, kimi ni) (1997)  MatchingDegree: 0.8
-117. Titolo: DNA (1997)  MatchingDegree: 0.8
-118. Titolo: Knockin' on Heaven's Door (1997)  MatchingDegree: 0.8
-119. Titolo: Most Wanted (1997)  MatchingDegree: 0.8
-120. Titolo: Neon Genesis Evangelion: Death & Rebirth (Shin seiki Evangelion GekijÃ´-ban: Shito shinsei) (1997)  MatchingDegree: 0.8
-121. Titolo: Shadow Warriors 2 (Assault on Devil's Island) (1997)  MatchingDegree: 0.8
-122. Titolo: Airbag (1997)  MatchingDegree: 0.8
-123. Titolo: Crossworlds (1997)  MatchingDegree: 0.8
-124. Titolo: Dragon Ball GT: A Hero's Legacy (Doragon bÃ´ru GT: GokÃ» gaiden! YÃ»ki no akashi wa sÃ»-shin-chÃ») (1997)  MatchingDegree: 0.8
-125. Titolo: Midnight Man (1997)  MatchingDegree: 0.8
-126. Titolo: Jungle de Ikou (Jungre de Ikou) (1997)  MatchingDegree: 0.8
-127. Titolo: Back in Business (1997)  MatchingDegree: 0.8
-128. Titolo: Rebirth of Mothra II (1997)  MatchingDegree: 0.8
-129. Titolo: Dead Silence (1997)  MatchingDegree: 0.8
-130. Titolo: Behind Enemy Lines (1997)  MatchingDegree: 0.8
-131. Titolo: Pardes (1997)  MatchingDegree: 0.8
-132. Titolo: Ishq (1997)  MatchingDegree: 0.8
-133. Titolo: Honey, We Shrunk Ourselves (1997)  MatchingDegree: 0.8
+0. Titolo: Toy Story (1995)  MatchingDegree: 0.5
+1. Titolo: Jumanji (1995)  MatchingDegree: 0.5
+2. Titolo: Heat (1995)  MatchingDegree: 0.7
+3. Titolo: Tom and Huck (1995)  MatchingDegree: 0.5
+4. Titolo: GoldenEye (1995)  MatchingDegree: 0.7
+5. Titolo: Balto (1995)  MatchingDegree: 0.5
+6. Titolo: Cutthroat Island (1995)  MatchingDegree: 0.7
+7. Titolo: Money Train (1995)  MatchingDegree: 0.7
+8. Titolo: Assassins (1995)  MatchingDegree: 0.7
+9. Titolo: City of Lost Children, The (CitÃ© des enfants perdus, La) (1995)  MatchingDegree: 0.5
+10. Titolo: Wings of Courage (1995)  MatchingDegree: 0.5
+11. Titolo: Dead Presidents (1995)  MatchingDegree: 0.7
+12. Titolo: Mortal Kombat (1995)  MatchingDegree: 0.7
+13. Titolo: Pocahontas (1995)  MatchingDegree: 0.1
+14. Titolo: Kids of the Round Table (1995)  MatchingDegree: 0.5
+15. Titolo: Indian in the Cupboard, The (1995)  MatchingDegree: 0.5
+16. Titolo: Screamers (1995)  MatchingDegree: 0.7
+17. Titolo: Crossing Guard, The (1995)  MatchingDegree: 0.7
+18. Titolo: Nick of Time (1995)  MatchingDegree: 0.7
+19. Titolo: Braveheart (1995)  MatchingDegree: 0.7
+20. Titolo: Rumble in the Bronx (Hont faan kui) (1995)  MatchingDegree: 0.7
+21. Titolo: Target (1995)  MatchingDegree: 0.7
+22. Titolo: Bad Boys (1995)  MatchingDegree: 0.7
+23. Titolo: Amazing Panda Adventure, The (1995)  MatchingDegree: 0.5
+24. Titolo: Apollo 13 (1995)  MatchingDegree: 0.5
+25. Titolo: Rob Roy (1995)  MatchingDegree: 0.7
+26. Titolo: Batman Forever (1995)  MatchingDegree: 0.7
+27. Titolo: Beyond Rangoon (1995)  MatchingDegree: 0.5
+28. Titolo: Casper (1995)  MatchingDegree: 0.5
+29. Titolo: Congo (1995)  MatchingDegree: 0.7
+30. Titolo: Desperado (1995)  MatchingDegree: 0.7
+31. Titolo: Die Hard: With a Vengeance (1995)  MatchingDegree: 0.7
+32. Titolo: First Knight (1995)  MatchingDegree: 0.7
+33. Titolo: Free Willy 2: The Adventure Home (1995)  MatchingDegree: 0.5
+34. Titolo: Hackers (1995)  MatchingDegree: 0.7
+35. Titolo: Johnny Mnemonic (1995)  MatchingDegree: 0.7
+36. Titolo: Judge Dredd (1995)  MatchingDegree: 0.7
+37. Titolo: Mighty Morphin Power Rangers: The Movie (1995)  MatchingDegree: 0.7
+38. Titolo: Net, The (1995)  MatchingDegree: 0.7
+39. Titolo: Strange Days (1995)  MatchingDegree: 0.7
+40. Titolo: Waterworld (1995)  MatchingDegree: 0.7
+41. Titolo: Bushwhacked (1995)  MatchingDegree: 0.5
+42. Titolo: French Kiss (1995)  MatchingDegree: 0.7
+43. Titolo: Far From Home: The Adventures of Yellow Dog (1995)  MatchingDegree: 0.5
+44. Titolo: Goofy Movie, A (1995)  MatchingDegree: 0.1
+45. Titolo: Gumby: The Movie (1995)  MatchingDegree: 0.1
+46. Titolo: Kid in King Arthur's Court, A (1995)  MatchingDegree: 0.5
+47. Titolo: Nemesis 2: Nebula (1995)  MatchingDegree: 0.7
+48. Titolo: Outbreak (1995)  MatchingDegree: 0.7
+49. Titolo: Quick and the Dead, The (1995)  MatchingDegree: 0.7
+50. Titolo: Tank Girl (1995)  MatchingDegree: 0.7
+51. Titolo: Tales from the Hood (1995)  MatchingDegree: 0.7
+52. Titolo: Virtuosity (1995)  MatchingDegree: 0.7
+53. Titolo: Bad Company (1995)  MatchingDegree: 0.7
+54. Titolo: Mirage (1995)  MatchingDegree: 0.7
+55. Titolo: Tough and Deadly (1995)  MatchingDegree: 0.7
+56. Titolo: Condition Red (Beyond the Law) (1995)  MatchingDegree: 0.7
+57. Titolo: Operation Dumbo Drop (1995)  MatchingDegree: 0.7
+58. Titolo: Ghost in the Shell (KÃ´kaku kidÃ´tai) (1995)  MatchingDegree: 0.1
+59. Titolo: Wallace & Gromit: A Close Shave (1995)  MatchingDegree: 0.1
+60. Titolo: Gold Diggers: The Secret of Bear Mountain (1995)  MatchingDegree: 0.5
+61. Titolo: Land Before Time III: The Time of the Great Giving (1995)  MatchingDegree: 0.5
+62. Titolo: Top Gun (1986)  MatchingDegree: 0.9
+63. Titolo: North Star (a.k.a. Tashunga) (1995)  MatchingDegree: 0.7
+64. Titolo: Aliens (1986)  MatchingDegree: 0.9
+65. Titolo: Stand by Me (1986)  MatchingDegree: 0.5
+66. Titolo: Highlander (1986)  MatchingDegree: 0.9
+67. Titolo: Star Trek IV: The Voyage Home (1986)  MatchingDegree: 0.5
+68. Titolo: Time Tracers (1995)  MatchingDegree: 0.7
+69. Titolo: Tokyo Fist (Tokyo ken) (1995)  MatchingDegree: 0.7
+70. Titolo: Labyrinth (1986)  MatchingDegree: 0.5
+71. Titolo: Flight of the Navigator (1986)  MatchingDegree: 0.5
+72. Titolo: Great Mouse Detective, The (1986)  MatchingDegree: 0.9
+73. Titolo: Tall Tale (1995)  MatchingDegree: 0.5
+74. Titolo: American Tail, An (1986)  MatchingDegree: 0.5
+75. Titolo: Clan of the Cave Bear, The (1986)  MatchingDegree: 0.5
+76. Titolo: King Kong Lives (1986)  MatchingDegree: 0.5
+77. Titolo: Karate Kid, Part II, The (1986)  MatchingDegree: 0.9
+78. Titolo: Howard the Duck (1986)  MatchingDegree: 0.5
+79. Titolo: Running Scared (1986)  MatchingDegree: 0.9
+80. Titolo: Jumpin' Jack Flash (1986)  MatchingDegree: 0.9
+81. Titolo: Crocodile Dundee (1986)  MatchingDegree: 0.5
+82. Titolo: 52 Pick-Up (1986)  MatchingDegree: 0.9
+83. Titolo: Heartbreak Ridge (1986)  MatchingDegree: 0.9
+84. Titolo: Day of the Beast, The (DÃ­a de la Bestia, El) (1995)  MatchingDegree: 0.5
+85. Titolo: Chopping Mall (a.k.a. Killbots) (1986)  MatchingDegree: 0.9
+86. Titolo: Mosquito Coast, The (1986)  MatchingDegree: 0.5
+87. Titolo: Golden Child, The (1986)  MatchingDegree: 0.9
+88. Titolo: No Mercy (1986)  MatchingDegree: 0.9
+89. Titolo: Iron Eagle (1986)  MatchingDegree: 0.9
+90. Titolo: Iron Eagle IV (1995)  MatchingDegree: 0.7
+91. Titolo: Adventures of Milo and Otis, The (Koneko monogatari) (1986)  MatchingDegree: 0.5
+92. Titolo: Let's Get Harry (1986)  MatchingDegree: 0.9
+93. Titolo: Shanghai Surprise (1986)  MatchingDegree: 0.5
+94. Titolo: Band of the Hand (1986)  MatchingDegree: 0.9
+95. Titolo: Born American (1986)  MatchingDegree: 0.9
+96. Titolo: Big Trouble in Little China (1986)  MatchingDegree: 0.9
+97. Titolo: F/X (1986)  MatchingDegree: 0.9
+98. Titolo: Transformers: The Movie (1986)  MatchingDegree: 0.5
+99. Titolo: Reform School Girls (1986)  MatchingDegree: 0.9
+100. Titolo: Manhunter (1986)  MatchingDegree: 0.9
+101. Titolo: Youngblood (1986)  MatchingDegree: 0.9
+102. Titolo: 3 Ninjas Knuckle Up (1995)  MatchingDegree: 0.7
+103. Titolo: SpaceCamp (1986)  MatchingDegree: 0.5
+104. Titolo: Care Bears Movie II: A New Generation (1986)  MatchingDegree: 0.1
+105. Titolo: Laputa: Castle in the Sky (TenkÃ» no shiro Rapyuta) (1986)  MatchingDegree: 0.9
+106. Titolo: Born to Be Wild (1995)  MatchingDegree: 0.5
+107. Titolo: Thrashin' (1986)  MatchingDegree: 0.9
+108. Titolo: Black Moon Rising (1986)  MatchingDegree: 0.9
+109. Titolo: Cobra (1986)  MatchingDegree: 0.9
+110. Titolo: Crying Freeman (1995)  MatchingDegree: 0.7
+111. Titolo: Ninja Scroll (JÃ»bei ninpÃ»chÃ´) (1995)  MatchingDegree: 0.7
+112. Titolo: Death Machine (1995)  MatchingDegree: 0.7
+113. Titolo: Hitcher, The (1986)  MatchingDegree: 0.9
+114. Titolo: Fist of the North Star (1995)  MatchingDegree: 0.7
+115. Titolo: Biggles (1986)  MatchingDegree: 0.5
+116. Titolo: Asterix in Britain (AstÃ©rix chez les Bretons) (1986)  MatchingDegree: 0.5
+117. Titolo: Dead End Drive-In (1986)  MatchingDegree: 0.9
+118. Titolo: Park Is Mine, The (1986)  MatchingDegree: 0.9
+119. Titolo: Solarbabies (1986)  MatchingDegree: 0.9
+120. Titolo: Darkman II: Return of Durant, The (1995)  MatchingDegree: 0.7
+121. Titolo: Five, The (Gonin) (1995)  MatchingDegree: 0.7
+122. Titolo: Last of the Dogmen (1995)  MatchingDegree: 0.5
+123. Titolo: Whisper of the Heart (Mimi wo sumaseba) (1995)  MatchingDegree: 0.1
+124. Titolo: Meltdown (Shu dan long wei) (1995)  MatchingDegree: 0.7
+125. Titolo: No Way Back (1995)  MatchingDegree: 0.7
+126. Titolo: Magic in the Water (1995)  MatchingDegree: 0.5
+127. Titolo: Blade, The (Dao) (1995)  MatchingDegree: 0.7
+128. Titolo: No Retreat, No Surrender (1986)  MatchingDegree: 0.9
+129. Titolo: Thief and the Cobbler, The (a.k.a. Arabian Knight) (1995)  MatchingDegree: 0.5
+130. Titolo: Memories (MemorÃ®zu) (1995)  MatchingDegree: 0.1
+131. Titolo: Wraith, The (1986)  MatchingDegree: 0.9
+132. Titolo: 8 Million Ways to Die (1986)  MatchingDegree: 0.9
+133. Titolo: Luxo Jr. (1986)  MatchingDegree: 0.1
+134. Titolo: Sword of Gideon (1986)  MatchingDegree: 0.9
+135. Titolo: Brotherhood of Justice, The (1986)  MatchingDegree: 0.9
+136. Titolo: Peking Opera Blues (Do ma daan) (1986)  MatchingDegree: 0.9
+137. Titolo: Thunderbolt (Pik lik feng) (1995)  MatchingDegree: 0.7
+138. Titolo: Adventures of Mark Twain, The (1986)  MatchingDegree: 0.5
+139. Titolo: When the Wind Blows (1986)  MatchingDegree: 0.1
+140. Titolo: Valhalla (1986)  MatchingDegree: 0.5
+141. Titolo: Pirates (1986)  MatchingDegree: 0.5
+142. Titolo: Fist of the North Star (1986)  MatchingDegree: 0.9
+143. Titolo: Castaway (1986)  MatchingDegree: 0.5
+144. Titolo: Blue City (1986)  MatchingDegree: 0.9
+145. Titolo: Top Dog (1995)  MatchingDegree: 0.7
+146. Titolo: Pebble and the Penguin, The (1995)  MatchingDegree: 0.1
+147. Titolo: Hidden Assassin (Shooter, The) (1995)  MatchingDegree: 0.7
+148. Titolo: Barefoot Gen 2 (Hadashi no Gen II) (1986)  MatchingDegree: 0.1
+149. Titolo: Harmagedon (1986)  MatchingDegree: 0.9
+150. Titolo: Evolver (1995)  MatchingDegree: 0.7
+151. Titolo: Dragon Ball: The Curse Of The Blood Rubies (Doragon bÃ´ru: Shenron no densetsu) (1986)  MatchingDegree: 0.9
+152. Titolo: Dragon Ball Z: Fusion Reborn (Doragon bÃ´ru Z 12: Fukkatsu no fyushon!! GokÃ» to BejÃ®ta) (1995)  MatchingDegree: 0.7
+153. Titolo: Dragon Ball Z: Wrath of the Dragon (Doragon bÃ´ru Z 13: RyÃ»ken bakuhatsu!! GokÃ» ga yaraneba dare ga yaru) (1995)  MatchingDegree: 0.7
+154. Titolo: Night of the Running Man (1995)  MatchingDegree: 0.7
+155. Titolo: Born to Defense (Zhong hua ying xiong) (1986)  MatchingDegree: 0.9
+156. Titolo: Never Too Young to Die (1986)  MatchingDegree: 0.9
+157. Titolo: Immortals, The (1995)  MatchingDegree: 0.7
+158. Titolo: Jungleground (1995)  MatchingDegree: 0.7
+159. Titolo: Quest, The (1986)  MatchingDegree: 0.5
+160. Titolo: Cyberjack (Virtual Assassin) (1995)  MatchingDegree: 0.7
+161. Titolo: Expect No Mercy (1995)  MatchingDegree: 0.7
+162. Titolo: Captain EO (1986)  MatchingDegree: 0.5
+163. Titolo: America 3000 (1986)  MatchingDegree: 0.9
+164. Titolo: Bullies (1986)  MatchingDegree: 0.9
+165. Titolo: Seventh Brother, The (A hetedik testvÃ©r) (1995)  MatchingDegree: 0.1
+166. Titolo: Aladdin (1986)  MatchingDegree: 0.5
+167. Titolo: Sharpe's Gold (1995)  MatchingDegree: 0.7
+168. Titolo: Sharpe's Battle (1995)  MatchingDegree: 0.7
+169. Titolo: Sharpe's Sword (1995)  MatchingDegree: 0.7
+170. Titolo: Dot and the Whale (1986)  MatchingDegree: 0.1
+171. Titolo: Napoleon (1995)  MatchingDegree: 0.5
+172. Titolo: The Wind in the Willows (1995)  MatchingDegree: 0.5
+173. Titolo: Heathcliff: The Movie (1986)  MatchingDegree: 0.1
+174. Titolo: Pan (1995)  MatchingDegree: 0.7

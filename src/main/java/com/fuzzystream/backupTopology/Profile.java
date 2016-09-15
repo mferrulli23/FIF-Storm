@@ -1,4 +1,4 @@
-package com.fuzzystream;
+package com.fuzzystream.backupTopology;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+import com.fuzzystream.Movie;
 import com.fuzzystream.fif_core.Attribute;
 import com.fuzzystream.fif_core.DescriptionBasedFilter;
 import com.fuzzystream.fif_core.Filter;
