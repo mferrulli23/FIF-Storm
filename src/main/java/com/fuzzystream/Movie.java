@@ -7,7 +7,6 @@ public class Movie implements Comparable{
 	private int id;
 	private String title;
 	private String date;
-	private String IMDBurl;
 	private LinkedList<String> genres;
 	private double grade;
 	
@@ -19,10 +18,6 @@ public class Movie implements Comparable{
 		this.genres = genres;
 		this.grade = grade;
 	}*/
-	
-	public Movie() {
-		// TODO Auto-generated constructor stub
-	}
 	
 	public int getId(){
 		return this.id;
@@ -36,10 +31,6 @@ public class Movie implements Comparable{
 		return date;
 	}
 
-	public String getIMDBurl() {
-		return IMDBurl;
-	}
-
 	public LinkedList<String> getGenres() {
 		return genres;
 	}
@@ -49,7 +40,7 @@ public class Movie implements Comparable{
 	}
 	
 	public String toString(){
-		return "ID: " + this.getId() + "   Title: " + this.getTitle() + "    Grade: " + this.getGrade();
+		return "ID: " + this.getId() + "   Title: " + this.getTitle() + "    MatchingDegree: " + this.getGrade();
 	}
 
 	public void setId(int id) {
@@ -64,10 +55,6 @@ public class Movie implements Comparable{
 		this.date = date;
 	}
 
-	public void setIMDBurl(String iMDBurl) {
-		IMDBurl = iMDBurl;
-	}
-
 	public void setGenres(LinkedList<String> genres) {
 		this.genres = genres;
 	}
@@ -76,8 +63,9 @@ public class Movie implements Comparable{
 		this.grade = grade;
 	}
 
+	
 	public int compareTo(Object m) {
-		//per il momento, confronto solo su grado
+		//confronto solo su grado
 		Movie m2 = (Movie) m;
 		if(getGrade() < m2.getGrade())
 			return -1;
@@ -86,7 +74,6 @@ public class Movie implements Comparable{
 		else
 			return 0;
 	}
-
 	
 	
 	

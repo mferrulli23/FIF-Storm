@@ -59,7 +59,7 @@ public class FuzzySet {
 	 */
 	
 
-	public void setValue(String element, double membershipValue) throws Exception  {
+	/*public void setValue(String element, double membershipValue) throws Exception  {
 
 		assert (element != null) : "Fuzzy Set: null element";
 		assert (membershipValue >= 0 && membershipValue <= 1) : "Fuzzy Set: invalid number to set";
@@ -85,6 +85,26 @@ public class FuzzySet {
 			//if (data.containsKey(element))  -> se la chiave non c'è il metodo non fa nulla
 				data.remove(element);
 		}
+		
+	}*/
+	
+	public void setValue(String element, double membershipValue)  {
+
+		assert (element!=null): "Fuzzy Set: null element";
+		assert (membershipValue>=0 && membershipValue<=1): "Fuzzy Set: invalid number to set";
+		
+		
+		if(membershipValue>=0.0){
+			//data.put(element.toLowerCase(), membershipValue);
+			data.put(element, membershipValue);
+		}
+		else{
+			if(!data.contains(element)){
+				data.remove(element);
+			}
+			
+		}
+
 		
 	}
 	

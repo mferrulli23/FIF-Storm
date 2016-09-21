@@ -34,7 +34,7 @@ public class ProfileA extends AbstractProfile {
 		profileGenreFs.setValue("Thriller", 0.7);
 		profileGenreFs.setValue("Mystery", 0.5);
 		profileYearFs.setValue("1986", 0.4);
-		profileYearFs.setValue("1997", 0.8);
+		profileYearFs.setValue("1995", 0.8);
 		
 		//costruzione metadato e filtro semplice
 		Attribute genre = new Attribute("Genre");

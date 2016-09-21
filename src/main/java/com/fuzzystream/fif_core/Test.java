@@ -1,7 +1,7 @@
 package com.fuzzystream.fif_core;
 
 import com.fuzzystream.exceptions.*;
-
+import com.fuzzystream.fif_core.exceptions.MetadataWithSameAttributeException;
 import com.fuzzystream.*;
 
 import java.net.URI;

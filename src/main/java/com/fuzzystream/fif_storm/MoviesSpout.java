@@ -1,11 +1,14 @@
 package com.fuzzystream.fif_storm;
 
 import java.io.IOException;
-import java.sql.Date;
-import java.sql.SQLException;
-import java.util.Map;
 
-import com.fuzzystream.dataAccess.DataAccess;
+import java.sql.SQLException;
+
+
+import java.util.Map;
+import com.fuzzystream.dataAccess.DBConnection;
+
+import com.fuzzystream.exceptions.*;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -18,21 +21,25 @@ public class MoviesSpout implements IRichSpout {
 	
 	private SpoutOutputCollector collector;
 	private boolean completed = false;
-	DataAccess DAO;
+	DBConnection DBc; 
+	
+	static boolean finished = false;
+	
+	private static final int MOVIELENS1 = 2;
+	private static final int MOVIELENS2 = 3;
+	private static final int MOVIELENS3 = 4;
+	
+	private static final String ALL_MOVIES_QUERY = "SELECT * FROM movies;";
+
 
 	public void open(Map conf, TopologyContext context, SpoutOutputCollector collector) {
-		DAO = new DataAccess();
+		DBc = new DBConnection();
 		try {
-			DAO.connetti(4);
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			DBc.connetti(MOVIELENS1);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new DatabaseConnectionFailedException();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new NotValidValueConfigFileException();
 		}
 		
 		this.collector = collector;
@@ -55,6 +62,7 @@ public class MoviesSpout implements IRichSpout {
 
 	public void nextTuple() {
 		if (completed) {
+			finished = true;
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
@@ -62,27 +70,28 @@ public class MoviesSpout implements IRichSpout {
 			return;
 		}
 		
-		String sql = "SELECT * FROM movies;";
 		
 		try {
-			DAO.stat = DAO.connessione.createStatement();
-			DAO.res = DAO.stat.executeQuery(sql);
+			DBc.stat = DBc.connessione.createStatement();
+			DBc.res = DBc.stat.executeQuery(ALL_MOVIES_QUERY);
+		} catch (SQLException e) {
+			throw new NotValidQueryException();
+		}
 
-			while (DAO.res.next()) {
-				int itemID = DAO.res.getInt("ID");
-				String title = DAO.res.getString("title");
-				String allGen = DAO.res.getString("genres");
-				
+		try {
+			while (DBc.res.next()) {
+				int itemID = DBc.res.getInt("ID");
+				String title = DBc.res.getString("title");
+				String allGen = DBc.res.getString("genres");
+
 				Values values = new Values(itemID, title, allGen);
 				this.collector.emit(values);
 
 			}
-			
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (SQLException e) {
+			throw new NotValidDataException();
 		}
-		
-		
+
 		completed = true;
 	
 

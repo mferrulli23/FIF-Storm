@@ -26,10 +26,12 @@ public abstract class AbstractProfile {
 	protected Filter generalFilter;
 	
 	public static AbstractProfile getInstance(){
+		assert (profileSelected != null) : "Errore. Non è stato istanziato alcun Profilo.";
 		return profileSelected;
 	}
 	
 	public Filter getFilter(){
+		assert (generalFilter != null);
 		return this.generalFilter;
 	}
 	
@@ -67,9 +69,10 @@ public abstract class AbstractProfile {
 		String movie = "";
 		int movieNum = 0;
 		for(Movie m : interestingMovies){
-			movie = movieNum + ". " + "Titolo: " + m.getTitle() + "  MatchingDegree: " + m.getGrade() + "\n";
-			bw.write(movie);
-			movieNum++;
+			//movie = movieNum + ". " + "Titolo: " + m.getTitle() + "  MatchingDegree: " + m.getGrade() + "\n";
+			//bw.write(movie);
+			//movieNum++;
+			System.out.println(m.toString());
 		}
 		bw.close();
 		

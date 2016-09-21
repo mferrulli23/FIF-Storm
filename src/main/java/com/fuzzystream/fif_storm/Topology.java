@@ -1,21 +1,23 @@
 package com.fuzzystream.fif_storm;
 
+import java.io.Serializable;
+
 import com.fuzzystream.AbstractProfile;
 import com.fuzzystream.ProfileFactory;
-import com.fuzzystream.backupTopology.Profile;
 
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
 import backtype.storm.topology.TopologyBuilder;
 
-public class Topology {
+public class Topology implements Serializable{
 
-	public final static String MOVIES_SPOUT_ID = "movies-SPOUT";
+	public final static String SPOUT_ID = "movies-SPOUT";
     public final static String PREPARING_BOLT_ID = "preparing-bolt";
     public final static String FILTERING_BOLT_ID = "filtering-bolt";
-    public final static String END_FILTERING_BOLT_ID = "end-filtering-bolt";
     public final static String FUZZY_FILTERING_TOPOLOGY_ID = "fuzzy-filtering-TOPOLOGY";
-    public final static String WORDS_FILE_KEY = "wordsFile";
+    
+    public static long endTime = 0;
+    public static long startTime = 0;
     
     
     
@@ -24,17 +26,20 @@ public class Topology {
     
     public static void main(String[] args) throws Exception {
     	
+    	startTime = System.currentTimeMillis();
+    	
     	ProfileFactory factory = new ProfileFactory();
     	int idProfile = factory.profileSelection();
         AbstractProfile profile = (AbstractProfile) factory.getInstance(idProfile);
     	
     	
-        //Prima parte - Definizione della TOPOLOGY        
+        //Prima parte - Definizione della TOPOLOGY  
+        long startTime = System.currentTimeMillis();
         TopologyBuilder builder = new TopologyBuilder();
-        builder.setSpout(MOVIES_SPOUT_ID, 
+        builder.setSpout(SPOUT_ID, 
         		new MoviesSpout());
         builder.setBolt(PREPARING_BOLT_ID, new PreparingBolt()).
-            shuffleGrouping(MOVIES_SPOUT_ID);
+            shuffleGrouping(SPOUT_ID);
 		builder.setBolt(FILTERING_BOLT_ID, new FilteringBolt()).shuffleGrouping(PREPARING_BOLT_ID);
 		
 
@@ -48,11 +53,10 @@ public class Topology {
         
         
         Thread.sleep(50000);
-        //cluster.shutdown();
+       
+        System.out.println("Everything done in: " + (endTime - startTime));
         
-        //Profile profile = null;
-        //profile = Profile.getInstance();
-        profile.showInterestingMovies();
+        //profile.showInterestingMovies();
         profile.printTxt();
         
         

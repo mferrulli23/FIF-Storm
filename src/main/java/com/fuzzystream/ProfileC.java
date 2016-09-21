@@ -33,8 +33,8 @@ public class ProfileC extends AbstractProfile {
 		//profileGenreFs.setValue("Animation", 0.8);
 		//profileGenreFs.setValue("Comedy", 0.7);
 		//profileGenreFs.setValue("Adventure", 0.5);
-		profileYearFs.setValue("1983", 0.4);
-		profileYearFs.setValue("1998", 0.8);
+		profileYearFs.setValue("1983", 0.9);
+		profileYearFs.setValue("1995", 0.2);
 		
 		//costruzione metadato e filtro semplice
 		//Attribute genre = new Attribute("Genre");

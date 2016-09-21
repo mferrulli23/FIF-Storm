@@ -2,7 +2,9 @@ package com.fuzzystream.fif_core;
 
 import java.awt.image.FilteredImageSource;
 
-import com.fuzzystream.exceptions.*;;
+import com.fuzzystream.exceptions.*;
+import com.fuzzystream.fif_core.exceptions.DescriptorWithNoValidMetadataException;
+import com.fuzzystream.fif_core.exceptions.InterpretationNotEqualException;;
 
 
 

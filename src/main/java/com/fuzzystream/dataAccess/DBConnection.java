@@ -10,8 +10,10 @@ import javax.swing.JOptionPane;
 
 import org.apache.ibatis.jdbc.ScriptRunner;
 
-public class DataAccess {
+public class DBConnection {
 	
+	private static final int MOVIELENS1 = 2;
+	private static final int MOVIELENS2 = 3;
 	private static final int FIRSTROW_DB3 = 8;
 	private static final int FIRSTROW_DB4 = 14;
 	
@@ -42,10 +44,12 @@ public class DataAccess {
      * @throws SQLException
      * @throws IOException
      */
-    public boolean connetti(int idDatabase) throws ClassNotFoundException, SQLException, IOException
+    public boolean connetti(int idDatabase) throws SQLException, IOException
     {
     	connessione = null;
         boolean connection = false;
+        
+        //lettura file di configurazione
         FileReader input = new FileReader("DB.conf");
         BufferedReader br = new BufferedReader(input);
         new Driver();
@@ -54,9 +58,9 @@ public class DataAccess {
         String user;
         String password;
         
-        if(idDatabase == 2)
+        if(idDatabase == MOVIELENS1)
         	br.readLine();
-        else if(idDatabase == 3){
+        else if(idDatabase == MOVIELENS2){
         	for(int i = 1; i < FIRSTROW_DB3; i++)
         		br.readLine();		
         }else{
@@ -69,34 +73,16 @@ public class DataAccess {
 	    user = br.readLine().toString();
 	    password = br.readLine().toString();
        
-        try {
-            String jdbc = (new StringBuilder("jdbc:mysql://")).append(src).append("/").append(db).toString();
-            connessione = DriverManager.getConnection(jdbc, user, password);
-            //connessione = DriverManager.getConnection("jdbc:mysql://localhost/Movielens","root", "storm");
+        //try {
+        String jdbc = (new StringBuilder("jdbc:mysql://")).append(src).append("/").append(db).toString();
+        connessione = DriverManager.getConnection(jdbc, user, password);
            
-        }
-        catch(SQLException e)
-        {        	
-        	if (e.getErrorCode()==1049) {
-            JOptionPane.showMessageDialog(null, "Errore generico nella connessione al database.");
-            //String jdbc = (new StringBuilder("jdbc:mysql://")).append(src).toString();
-           //connessione = DriverManager.getConnection("jdbc:mysql://localhost/Movielens","root", "storm");
-         	//String sqlScriptPath = br.readLine().toString();
-         	//ScriptRunner sr = new ScriptRunner(connessione);
-         	//BufferedReader reader = new BufferedReader(
-         	//new FileReader(sqlScriptPath));
-         	//sr.runScript(reader);
-         	//sqlScriptPath=br.readLine().toString();
-         	//reader = new BufferedReader(new FileReader(sqlScriptPath));
-            //sr.runScript(reader);
-            //JOptionPane.showMessageDialog(null, "Installazione completata!");
-        } else {
-        	if (e.getErrorCode()==1045) {
-        		JOptionPane.showMessageDialog(null, "Username o password del DB errati! \n Controllare il file di configurazione e riprovare.");   		
-        	} else {
-        		JOptionPane.showMessageDialog(null, "Errore nella connessione al database! \n Contattare l'amministratore di sistema.\nIl sistema verrà chiuso ora.");}
-        	}
-        }
+       // }
+       // catch(SQLException e)
+      // {        	
+       // 	throw new  DatabaseConnection
+       // }
+        
         br.close();
         input.close();
         connection = true;
@@ -116,13 +102,4 @@ public class DataAccess {
         chiuso = true;
         return chiuso;
     }
-    
-    private void switchLine(int idDatabase){
-    	
-    }
-    
-    
-   
-    
-    
 }

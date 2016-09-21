@@ -1,6 +1,6 @@
 package com.fuzzystream.fif_core;
 
-import com.fuzzystream.exceptions.IllegalNumerOfValuesException;
+import com.fuzzystream.fif_core.exceptions.*;
 
 /**This class represents the ordered weighted averaging, a particular implementation of an aggregator.<br><br>
  * 

@@ -2,7 +2,7 @@ package com.fuzzystream;
 
 import java.util.Scanner;
 
-import com.fuzzystream.backupTopology.Profile;
+
 import com.fuzzystream.fif_core.FuzzySet;
 
 public class ProfileFactory implements Factory {
@@ -15,6 +15,7 @@ public class ProfileFactory implements Factory {
 	private static final int PROFILE_D_NEW_ID = 4;
 	
 	public Object getInstance(int x) {
+		assert(x >= PROFILE_A_ID && x <= PROFILE_D_NEW_ID);
 		AbstractProfile profile = null;
 		if(x == PROFILE_A_ID){
 			try {
@@ -69,12 +70,12 @@ public class ProfileFactory implements Factory {
     	if(option == EXISTING_PROFILE_ID)
     		return loadExistingProfile();
     	else if(option == NEW_PROFILE_ID)
-    		return createNewProfile();
+    		return PROFILE_D_NEW_ID;
     	return -1;
     		
 	}
 	
-	public int loadExistingProfile(){
+	private int loadExistingProfile(){
 		System.out.println("Choose an existing profile:");
 		System.out.println("Profile A: [PRESS 1]");
 		System.out.println("Action = 0.8, Thriller = 0.7, Mystery = 0.5");
@@ -100,8 +101,8 @@ public class ProfileFactory implements Factory {
 		
 	}
 	
-	public int createNewProfile(){
-		return PROFILE_D_NEW_ID;
-	}
+	//public int createNewProfile(){
+	//	return PROFILE_D_NEW_ID;
+	//}
 
 }

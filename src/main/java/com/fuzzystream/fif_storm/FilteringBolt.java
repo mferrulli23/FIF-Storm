@@ -4,11 +4,8 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.LinkedList;
 import java.util.Map;
-
 import com.fuzzystream.AbstractProfile;
 import com.fuzzystream.Movie;
-import com.fuzzystream.backupTopology.Profile;
-import com.fuzzystream.exceptions.MetadataWithSameAttributeException;
 import com.fuzzystream.fif_core.Attribute;
 import com.fuzzystream.fif_core.Descriptor;
 import com.fuzzystream.fif_core.Filter;
@@ -17,6 +14,9 @@ import com.fuzzystream.fif_core.Metadata;
 import com.fuzzystream.fif_core.PossibilisticInterpretation;
 import com.fuzzystream.fif_core.Resource;
 import com.fuzzystream.fif_core.ResourceRegister;
+import com.fuzzystream.fif_core.exceptions.DescriptorWithNoValidMetadataException;
+import com.fuzzystream.fif_core.exceptions.InterpretationNotEqualException;
+import com.fuzzystream.fif_core.exceptions.MetadataWithSameAttributeException;
 
 import backtype.storm.task.OutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -45,11 +45,13 @@ public class FilteringBolt implements IRichBolt {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		//this.profileFs = profile.getGenrePreferences();
+		
 
 	}
 
 	public void execute(Tuple input) {
+		
+		
 		this.resourceGenreFs = new FuzzySet();
 		this.resourceYearFs = new FuzzySet();
 		String allGen = input.getStringByField("allGen");
@@ -61,22 +63,15 @@ public class FilteringBolt implements IRichBolt {
 		Attribute resourceGenre = new Attribute("Genre");
 		
 		for(int i = 0; i < genres.length; i++)
-			try {
-				resourceGenreFs.setValue(genres[i], 1.0);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
+			resourceGenreFs.setValue(genres[i], 1.0);
+			
 		
 		Metadata resourceGenreMd = new Metadata(resourceGenre, resourceGenreFs, PossibilisticInterpretation.getinstance());
 		
 		//costruzione metadato ANNO
 		Attribute resourceYear = new Attribute("Year");
-		try {
 			resourceYearFs.setValue(year, 1);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		
 		Metadata resourceYearMd = new Metadata(resourceYear, resourceYearFs, PossibilisticInterpretation.getinstance());
 		
@@ -87,7 +82,7 @@ public class FilteringBolt implements IRichBolt {
 			descriptor.setMetadata(resourceGenreMd);
 			descriptor.setMetadata(resourceYearMd);
 		} catch (MetadataWithSameAttributeException e) {
-			e.printStackTrace();
+			System.err.println("Exception: metadata with same attribute.");;
 		}
 		
 		//costruzione risorsa
@@ -102,15 +97,6 @@ public class FilteringBolt implements IRichBolt {
 		ResourceRegister rr = ResourceRegister.getinstance();
 		rr.associateDescriptor(resource, descriptor);
 		
-		/*//FILTERING
-		Profile profile = null;
-		try {
-			profile = Profile.getInstance();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		*/
 		
 		AbstractProfile currentProfile = AbstractProfile.getInstance();
 		Filter filter = currentProfile.getFilter();
@@ -138,9 +124,17 @@ public class FilteringBolt implements IRichBolt {
 				
 			}
 				
-		} catch (Exception e){
+		} catch (InterpretationNotEqualException e){
+			System.err.println("Exception: different interpretation type between filter and resource");
+		} catch (DescriptorWithNoValidMetadataException e){
+			System.err.print("Exception: descriptor has not valid metadata.");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		if(MoviesSpout.finished)
+			Topology.endTime = System.currentTimeMillis();
 		
 		collector.ack(input);
 

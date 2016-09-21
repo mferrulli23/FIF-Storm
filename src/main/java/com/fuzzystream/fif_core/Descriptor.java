@@ -3,7 +3,8 @@ package com.fuzzystream.fif_core;
 import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Hashtable;
-import com.fuzzystream.exceptions.MetadataWithSameAttributeException;
+
+import com.fuzzystream.fif_core.exceptions.MetadataWithSameAttributeException;
 
 /**This class provides implementation and methods of an descriptor.<br><br>
  * One descriptor has a set of metadata of one resource and can't have more than one metadata with the same attribute.
